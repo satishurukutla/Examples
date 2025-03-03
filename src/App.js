@@ -19,7 +19,7 @@ import React, { useState } from "react";
     return (
         <div className="App">
             <h1> {count}</h1>
-            <button onClick={increment}>Increment</button>
+            <button onClick={increment}>Increments</button>
             <button onClick={decrement}>Decrement</button>
         </div>
     );
